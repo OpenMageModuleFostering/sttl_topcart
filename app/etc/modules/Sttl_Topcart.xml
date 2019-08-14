@@ -1,0 +1,11 @@
+<config>
+    <modules>
+        <Sttl_Topcart>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Checkout/>
+            </depends>
+        </Sttl_Topcart>
+    </modules>
+</config>

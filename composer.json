@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Sttl_Topcart",
+    "type": "magento-module",
+    "license": "STTL",
+    "homepage": "",
+    "description": "On clicking MyCart the user is presented with a designed and detailed pop up of the Cart. ",
+    "authors": [
+    {
+        "name": "Silvertouch",
+        "email": "magento@silvertouch.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sttl_Topcart</name>
+    <version>2.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.silvertouch.com/MagentoExtensions/licence">STTL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>On clicking MyCart the user is presented with a designed and detailed pop up of the Cart. </summary>
+    <description>1.User can see the details of their Cart time by just one click on My Cart.&#xD;
+2. The design can be changed as per your requirement.&amp;#xD;&#xD;
+3. Theme is made using additional CSS- thus no effect on the core files.</description>
+    <notes>On clicking MyCart the user is presented with a designed and detailed pop up of the Cart. </notes>
+    <authors><author><name>Silvertouch</name><user>silvertouch</user><email>magento@silvertouch.com</email></author></authors>
+    <date>2014-08-06</date>
+    <time>05:47:20</time>
+    <contents><target name="magelocal"><dir name="Sttl"><dir name="Topcart"><dir name="Block"><file name="Cartheader.php" hash="5f53603343d897731d157ee0bc6a18d9"/><dir name="Html"><file name="Header.php" hash="169a4e8d08430b6960921d00dc95d5a4"/></dir></dir><dir name="Helper"><file name="Data.php" hash="d29a365747db7eae790946b4b7585e2a"/></dir><dir name="controllers"><file name="IndexController.php" hash="ac40f20d9487924e9e92bbfeb40edca1"/></dir><dir name="etc"><file name="config.xml" hash="c376bf52e2c12cad8d75e2089c256de9"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="topcart.xml" hash="53f84eab13398be65f552e2020015816"/></dir><dir name="template"><dir name="topcart"><dir name="checkout"><dir name="cart"><file name="cartheader.phtml" hash="01878d31ccdab28e6d885cd077bb17f5"/></dir></dir><dir name="page"><dir name="html"><file name="header.phtml" hash="6b2fce05667d641b9608ec2e99d3ca57"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sttl_Topcart.xml" hash="f41c39d4406127bf52ee42d2014ec98a"/></dir></target><target name="mage"><dir name="js"><dir name="topcart"><file name="topcart.js" hash="01b9756a534f453ead78e3d1ea6ec2b1"/></dir></dir><dir name="skin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="topcart"><file name="topcart.css" hash="fa71db0b448e917c8925b59237f66cb9"/></dir></dir></dir></dir></dir></dir><dir name="silver_docs"><file name="SILVER_Top_Cart_Popup_User_Guide_Ver_1.0.pdf" hash="5a66c216c879470af05bc25031e3c499"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

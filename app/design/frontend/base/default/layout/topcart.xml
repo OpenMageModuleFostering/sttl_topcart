@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/topcart/topcart.css</stylesheet>
+            </action>
+            <action method="addJs">
+                <script>topcart/topcart.js</script>
+            </action>
+        </reference>		 
+        <reference name="header">
+            <block type="topcart/cartheader" name="topcart_header" as="topcart" template="topcart/checkout/cart/cartheader.phtml">  				
+            </block>
+        </reference>
+        <reference name="top.links">
+            <action method="removeLinkByUrl">
+                <url helper="topcart/data/isEnable"/>
+            </action>
+        </reference>				 
+    </default>
+</layout>
